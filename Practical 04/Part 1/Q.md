@@ -16,9 +16,9 @@ TEE D:\DBMS Practical\Session4.txt
 4. Save the text file.
 5. Open the Command Prompt.
 6. Log in to the MySQL server.
-7. Type source followed by the path to the text file SQLCode_1.txt.
+7. Type `source` followed by the path to the text file SQLCode_1.txt.
    
-Example:
+### Example:
 
 ```
 source D:\DBMSPractical\SQLCode_1.txt
