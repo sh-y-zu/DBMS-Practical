@@ -78,6 +78,26 @@ Three text files are saved to insert data into each table separately. Each data 
 ```
 
 Data is uploaded from these text files to the tables using the LOAD command.
+```
+LOAD DATA LOCAL INFILE 'C:/Users/shyzu/Documents/Programming/LangVerse/SQL/supplier_data.txt'
+INTO TABLE Supplier
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/shyzu/Documents/Programming/LangVerse/SQL/parts_data.txt'
+INTO TABLE Parts
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/shyzu/Documents/Programming/LangVerse/SQL/supply_data.txt'
+INTO TABLE Supply
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n';
+```
+
+#### Result :
 
 Supplier:
 
