@@ -67,7 +67,10 @@ Supply
 | S4  | P4  | 300      |
 | S4  | P5  | 400      |
 
-## Write Queries,
+6. Write SQL queries for the following tasks and use the "Tee" command to export both the command and the output to a text file.
+
+   ```sql
+   TEE filepath\textfilename.txt
 
 a) List the `Sno` and `Sname` of suppliers whose status is above 15.
 
