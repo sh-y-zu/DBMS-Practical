@@ -113,27 +113,27 @@ Parts:
 
 | Pno | Pname | Color | Weight | City    |
 |-----|-------|-------|--------|---------|
-| 1   | Nut   | Red   | 12     | London  |
-| 2   | Bolt  | Green | 17     | Paris   |
-| 3   | Screw | Blue  | 17     | Rome    |
-| 4   | Screw | Red   | 14     | London  |
-| 5   | Cam   | Blue  | 12     | Paris   |
-| 6   | Cog   | Red   | 19     | London  |
+| P1  | Nut   | Red   | 12     | London  |
+| P2  | Bolt  | Green | 17     | Paris   |
+| P3  | Screw | Blue  | 17     | Rome    |
+| P4  | Screw | Red   | 14     | London  |
+| P5  | Cam   | Blue  | 12     | Paris   |
+| P6  | Cog   | Red   | 19     | London  |
 
 Supply:
 
 | Sno | Pno | Quantity |
 |-----|-----|----------|
-| S1  | 1   | 300      |
-| S1  | 2   | 200      |
-| S1  | 3   | 400      |
-| S1  | 4   | 200      |
-| S1  | 5   | 100      |
-| S1  | 6   | 100      |
-| S2  | 1   | 300      |
-| S2  | 2   | 400      |
-| S3  | 2   | 200      |
-| S4  | 2   | 200      |
-| S4  | 4   | 300      |
-| S4  | 5   | 400      |
+| S1  | P1  | 300      |
+| S1  | P2  | 200      |
+| S1  | P3  | 400      |
+| S1  | P4  | 200      |
+| S1  | P5  | 100      |
+| S1  | P6  | 100      |
+| S2  | P1  | 300      |
+| S2  | P2  | 400      |
+| S3  | P2  | 200      |
+| S4  | P2  | 200      |
+| S4  | P4  | 300      |
+| S4  | P5  | 400      |
 
