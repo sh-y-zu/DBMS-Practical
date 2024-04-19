@@ -67,5 +67,26 @@ Supply
 | S4  | P4  | 300      |
 | S4  | P5  | 400      |
 
+## Write Queries,
+
+a) List the `Sno` and `Sname` of suppliers whose status is above 15.
+
+b) List all cities in which parts are manufactured, removing duplicates from the answer.
+
+c) Decrease the status value by 2 for all suppliers.
+
+d) List all suppliers, arranging them in descending order by status.
+
+e) Display the part numbers and quantity of each part with a quantity greater than 300.
+
+f) List all parts that are either 'Red' or 'Blue' in color.
+
+g) List all parts that are both 'Blue' in color and manufactured in 'Rome'.
+
+h) List all parts except those that are 'Blue' in color.
+
+i) List all supplier names where the second letter of their name is 'I'.
+
+j) Display the name, city, and weight of parts with a weight between 12 and 17.
 
 This README file outlines the tasks to be performed and provides necessary information regarding the database schema and data files for the exercise.
