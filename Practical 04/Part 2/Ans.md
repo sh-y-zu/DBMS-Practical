@@ -22,7 +22,7 @@ CREATE TABLE Supplier (
 );
 
 CREATE TABLE Parts (
-    Pno INT PRIMARY KEY,
+    Pno VARCHAR(10) PRIMARY KEY,
     Pname VARCHAR(255),
     Color VARCHAR(255),
     Weight INT,
@@ -31,7 +31,7 @@ CREATE TABLE Parts (
 
 CREATE TABLE Supply (
     Sno VARCHAR(10),
-    Pno INT,
+    Pno VARCHAR(10),
     Quantity INT,
     PRIMARY KEY (Sno, Pno),
     FOREIGN KEY (Sno) REFERENCES Supplier(Sno),
@@ -53,28 +53,28 @@ Three text files are saved to insert data into each table separately. Each data 
 
 `parts_data.txt:`
 ```
-1, "Nut", "Red", 12, "London"
-2, "Bolt", "Green", 17, "Paris"
-3, "Screw", "Blue", 17, "Rome"
-4, "Screw", "Red", 14, "London"
-5, "Cam", "Blue", 12, "Paris"
-6, "Cog", "Red", 19, "London"
+"P1", Nut, "Red", 12, "London"
+"P2", Bolt, "Green", 17, "Paris"
+"P3", Screw, "Blue", 17, "Rome"
+"P4", Screw, "Red", 14, "London"
+"P5", Cam, "Blue", 12, "Paris"
+"P6", Cog, "Red", 19, "London"
 ```
 
 `supply_data.txt:`
 ```
-"S1", 1, 300
-"S1", 2, 200
-"S1", 3, 400
-"S1", 4, 200
-"S1", 5, 100
-"S1", 6, 100
-"S2", 1, 300
-"S2", 2, 400
-"S3", 2, 200
-"S4", 2, 200
-"S4", 4, 300
-"S4", 5, 400
+"S1", "P1", 300
+"S1", "P2", 200
+"S1", "P3", 400
+"S1", "P4", 200
+"S1", "P5", 100
+"S1", "P6", 100
+"S2", "P1", 300
+"S2", "P2", 400
+"S3", "P2", 200
+"S4", "P2", 200
+"S4", "P4", 300
+"S4", "P5", 400
 ```
 
 Data is uploaded from these text files to the tables using the LOAD command.
