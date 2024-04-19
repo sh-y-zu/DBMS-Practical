@@ -32,44 +32,40 @@ This exercise involves creating tables based on a relational schema, inserting d
 
 5. Tables are provided below:
 
-   Supplier:
-   ```
-   Sno Sname Status City
-   S1 Smith 20 London
-   S2 Jones 10 Paris
-   S3 Black 30 Paris
-   S4 Clark 20 London
-   S5 Adams 30 Athens 
-   ```
+Supplier
+| Sno | Sname  | Status | City    |
+|-----|--------|--------|---------|
+| S1  | Smith  | 20     | London  |
+| S2  | Jones  | 10     | Paris   |
+| S3  | Black  | 30     | Paris   |
+| S4  | Clark  | 20     | London  |
+| S5  | Adams  | 30     | Athens  |
 
-   Parts:
-   ```
-   Pname Color Weight City
-   Nut Red 12 London
-   Bolt Green 17 Paris
-   Screw Blue 17 Rome
-   Screw Red 14 London
-   Cam Blue 12 Paris
-   Cog Red 19 London 
-   ```
+Parts
+| Pno | Pname | Color | Weight | City    |
+|-----|-------|-------|--------|---------|
+| 1   | Nut   | Red   | 12     | London  |
+| 2   | Bolt  | Green | 17     | Paris   |
+| 3   | Screw | Blue  | 17     | Rome    |
+| 4   | Screw | Red   | 14     | London  |
+| 5   | Cam   | Blue  | 12     | Paris   |
+| 6   | Cog   | Red   | 19     | London  |
 
-   Supply:
-   ```
-   Sno Pno Quantity
-   S1 P1 300
-   S1 P2 200
-   S1 P3 400
-   S1 P4 200
-   S1 P5 100
-   S1 P6 100
-   S2 P1 300
-   S2 P2 400
-   S3 P2 200
-   S4 P2 200
-   S4 P4 300
-   S4 P5 400
-   ```
+Supply
+| Sno | Pno | Quantity |
+|-----|-----|----------|
+| S1  | P1  | 300      |
+| S1  | P2  | 200      |
+| S1  | P3  | 400      |
+| S1  | P4  | 200      |
+| S1  | P5  | 100      |
+| S1  | P6  | 100      |
+| S2  | P1  | 300      |
+| S2  | P2  | 400      |
+| S3  | P2  | 200      |
+| S4  | P2  | 200      |
+| S4  | P4  | 300      |
+| S4  | P5  | 400      |
 
----
 
 This README file outlines the tasks to be performed and provides necessary information regarding the database schema and data files for the exercise.
