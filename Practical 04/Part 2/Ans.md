@@ -137,3 +137,64 @@ Supply:
 | S4  | P4  | 300      |
 | S4  | P5  | 400      |
 
+
+
+-- a) List Sno and Sname of suppliers whose status above 15.
+```
+SELECT Sno, Sname 
+FROM Suppliers 
+WHERE status > 15;
+```
+-- b) List the all cities in which parts are manufactured. (Remove duplicates from the answer).
+```
+SELECT DISTINCT city 
+FROM Parts;
+```
+
+-- d) Deduct the status value by 2 for all suppliers.
+```
+UPDATE Suppliers 
+SET status = status - 2;
+```
+-- e) List all suppliers by arranging them in descending order by status.
+```
+SELECT * 
+FROM Suppliers 
+ORDER BY status DESC;
+```
+-- f) Display the parts numbers and quantity of each part which are having quantity value greater than 300.
+```
+SELECT Pno, quantity 
+FROM Parts 
+WHERE quantity > 300;
+```
+-- g) List all the parts which have the color ‘Red’ or ‘Blue’.
+```
+SELECT * 
+FROM Parts 
+WHERE color IN ('Red', 'Blue');
+```
+-- h) List all the parts which have the color ‘Blue’ and city ‘Rome’.
+```
+SELECT * 
+FROM Parts 
+WHERE color = 'Blue' AND city = 'Rome';
+```
+-- i) List all the parts except Blue.
+```
+SELECT * 
+FROM Parts 
+WHERE color <> 'Blue';
+```
+-- j) List all names of Suppliers whose names having ‘I’ as the second letter.
+```
+SELECT Sname 
+FROM Suppliers 
+WHERE Sname LIKE '_I%';
+```
+-- k) Display name, city and weight of parts which are having weight between 12-17.
+```
+SELECT name, city, weight 
+FROM Parts 
+WHERE weight BETWEEN 12 AND 17;
+```
