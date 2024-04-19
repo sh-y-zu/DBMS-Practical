@@ -1,2 +1,2 @@
 # DBMS-Practical
-ICT 1407– Database System  (FAS-RUSL)
+ICT 1407 – Database System  (FAS-RUSL)
